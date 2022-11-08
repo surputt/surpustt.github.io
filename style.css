@@ -1,0 +1,289 @@
+.navbar{
+    background-color: transparent;
+}
+.navbar .navbar-brand
+{
+color: #0F3460;
+text-shadow: black;
+font-family:'Heebo', sans-serif;
+font-size: 48px;
+font-weight: bolder;
+}
+
+.navbar-nav{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+}
+.navbar .nav-link {
+    color:#0F3460;
+    text-shadow: black;
+    text-align: left;
+}
+.navbar .nav-link:hover{
+    color:#E94560; 
+    text-shadow: black;
+}
+.navbar .navlink:active{
+    color: #E94560;
+}
+
+.navbar .navlink:visited{
+    color: #0F3460;
+}
+    
+
+.jumbotron{
+ 
+    font-family: 'Heebo', sans-serif;
+    color: #0F3460;
+
+    
+    height: 600px;
+    margin-top: 60px;
+
+    
+}
+
+
+.jumbotron .display-4{
+    font-size: 96px;
+    margin-top: -35px;
+    font-weight: 400;
+    font-family: 'Heebo', sans-serif;
+}
+.jumbotron .lead{
+    font-size: 40px;
+    font-family: 'Heebo', sans-serif;
+
+}
+.jumbotron .lead1{
+    font-size: 40px;
+    font-family: 'Heebo', sans-serif;
+    margin-top: -450px;
+}
+
+.bg {
+    background-color: rgb(255, 255, 255);
+}
+
+.about {
+    background-color: #E94560;
+
+
+}
+.about .container{
+
+    margin-top: 135px; 
+    height: 350px;
+}
+.about .container .title{
+    color: white;
+    padding-top: 50px;
+    text-align:center;
+    
+}
+
+
+.about .container .content{
+    color: white; 
+    font-size: large;
+    font-weight: 450;
+    text-align: justify;
+    text-align:center;
+    margin-top: 65px;
+}
+
+
+.skill .container {
+    height: 400px;
+
+}
+.skill .container .title{
+    text-align: center;
+    padding-top: 50px;
+    color: #0F3460;
+}
+
+.skill .container .content{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon {
+    height: 220px;
+    margin: 50px;
+
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.gambar {
+    margin-top: 10px; 
+    margin-bottom :10px;
+    width: 200px;
+}
+.text {
+    height: 75px;
+    width: 200px;
+    padding: 6px;
+    box-sizing: border-box;
+    position:absolute;
+    text-align: center;
+    color : #0F3460;
+}
+.ch1{
+    margin: 10px;
+    font-size: 30px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.icon:hover{
+    cursor : pointer;
+}
+.icon:hover .ch1{
+    opacity: 1;
+    visibility: visible;
+ }
+.icon:hover gambar{
+    transform: scale(1,1) rotate(2deg); 
+}
+
+.portfolio {
+    background-color: #E94560;
+}
+
+.portfolio .container{
+
+    margin-top: 135px; 
+    height: 450px;
+}
+.portfolio .container .title{
+    color: white;
+    padding-top: 50px;
+    text-align:center;
+    
+}
+
+
+.portfolio .container .content{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  > * {
+    margin: 5px;
+  }
+}
+
+.media {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .img{
+      max-width: 100%;
+      height: auto;
+    }
+}
+
+.layer {
+  opacity: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10px;
+  height: 90%;
+  background: #FFF;
+  color: #151E3F;
+  transition: all 0.9s ease;
+  p {
+    transition: all 0.9s ease;
+    transform: scale(0.1)
+  }
+}
+
+.p2 {
+  font-family: 'Inconsolata', monospace;
+  
+  font-weight: bold;text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing:1px;
+}
+
+.media:hover .layer {
+  opacity: 0.8;
+  width: 90%;
+  transition: all 0.5s ease;
+  p {
+    transform: scale(1);
+    transition: all 0.9s ease;
+  }
+}
+
+.contact .container {
+    height: 700px;
+
+}
+.contact .container .title{
+    text-align: center;
+    padding-top: 50px;
+    color: #0F3460;
+}
+
+.contact .container .content{
+    padding-top: 30px;
+    margin-left: 300px;
+    width: 700px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #0F3460;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #E94560;
+  }
+  
+
+ 
